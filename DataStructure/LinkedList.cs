@@ -12,14 +12,14 @@ namespace DataStructure
         public void Add(int data)
         {
             Node node = new Node(data);
-            if(this.head == null)
+            if (this.head == null)
             {
                 this.head = node;
             }
             else
             {
                 Node temp = head;
-                while(temp.next != null)
+                while (temp.next != null)
                 {
                     temp = temp.next;
                 }
@@ -104,6 +104,20 @@ namespace DataStructure
                 NewNode = NewNode.next;
             }
             NewNode.next = null;
+        }
+        public void Search(int value)
+        {
+            Node node = this.head;
+            int count = 0;
+            while (node != null)
+            {
+                if (node.data.Equals(value))
+                {
+                    Console.WriteLine(count + "th position");
+                }
+                node = node.next;
+                count++;
+            }
         }
     }
 }
