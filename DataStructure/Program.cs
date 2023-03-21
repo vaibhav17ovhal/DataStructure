@@ -10,7 +10,7 @@ namespace DataStructure
             Console.WriteLine("Welcome to Data Structure");
             LinkedList linkedList = new LinkedList();
             linkedList.Add(56);
-            //linkedList.Add(30);
+            linkedList.Add(30);
             linkedList.Add(70);
             //linkedList.Display();
 
@@ -19,7 +19,10 @@ namespace DataStructure
             //linkedList.AddInReverseOrder(56);
             //linkedList.Display();
 
-            linkedList.InsertAtParticularPosition(1,30);
+            //linkedList.InsertAtParticularPosition(1,30);
+            //linkedList.Display();
+
+            linkedList.RemoveFirstNode();
             linkedList.Display();
         }
     }
