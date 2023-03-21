@@ -22,7 +22,10 @@ namespace DataStructure
             //linkedList.InsertAtParticularPosition(1,30);
             //linkedList.Display();
 
-            linkedList.RemoveFirstNode();
+            //linkedList.RemoveFirstNode();
+            //linkedList.Display();
+
+            linkedList.RemoveLastNode();
             linkedList.Display();
         }
     }
