@@ -1,7 +1,7 @@
 ﻿using DataStructure;
 using System;
 
-namespace DataStructire
+namespace DataStructure
 {
     public class Program
     {
@@ -9,13 +9,18 @@ namespace DataStructire
         {
             Console.WriteLine("Welcome to Data Structure");
             LinkedList linkedList = new LinkedList();
-            //linkedList.Add(56);
+            linkedList.Add(56);
             //linkedList.Add(30);
-            //linkedList.Add(70);
+            linkedList.Add(70);
             //linkedList.Display();
-            linkedList.AddInReverseOrder(70);
-            linkedList.AddInReverseOrder(30);
-            linkedList.AddInReverseOrder(56);
+
+            //linkedList.AddInReverseOrder(70);
+            //linkedList.AddInReverseOrder(30);
+            //linkedList.AddInReverseOrder(56);
+            //linkedList.Display();
+
+            linkedList.InsertAtParticularPosition(1,30);
+            linkedList.Display();
         }
     }
 }
