@@ -12,7 +12,7 @@ namespace DataStructure
             linkedList.Add(56);
             linkedList.Add(30);
             linkedList.Add(70);
-            //linkedList.Display();
+            linkedList.Display();
 
             //linkedList.AddInReverseOrder(70);
             //linkedList.AddInReverseOrder(30);
@@ -28,8 +28,37 @@ namespace DataStructure
             //linkedList.RemoveLastNode();
             //linkedList.Display();
 
-            linkedList.Search(30);
+            //linkedList.Search(30);
+            //linkedList.Display();
+
+            int position = linkedList.Search(30);
+            linkedList.InsertAtParticularPosition(position + 1 , 40);
             linkedList.Display();
+            Console.WriteLine();
+            int searchDelete = linkedList.Search(40);
+            linkedList.DeleteNodeAtParticularPosition(searchDelete);
+            linkedList.Display();
+
+            /*
+            LinkedListStack stack = new LinkedListStack();
+            stack.Push(70);
+            stack.Push(30);
+            stack.Push(56);
+            stack.Display();
+            stack.Peak();
+            stack.Pop();
+            stack.Display();
+            */
+
+            //LinkedListQueue queue = new LinkedListQueue();
+            //queue.Enqueue(56);
+            //queue.Enqueue(30);
+            //queue.Enqueue(70);
+            //queue.Display();
+            //queue.Dequeue();
+            //queue.Display();
+
+
         }
     }
 }
