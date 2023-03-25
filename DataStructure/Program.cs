@@ -49,14 +49,17 @@ namespace DataStructure
             //stack.Pop();
             //stack.Display();
 
-            LinkedListQueue queue = new LinkedListQueue();
-            queue.Enqueue(56);
-            queue.Enqueue(30);
-            queue.Enqueue(70);
-            queue.Display();
+            //LinkedListQueue queue = new LinkedListQueue();
+            //queue.Enqueue(56);
+            //queue.Enqueue(30);
+            //queue.Enqueue(70);
+            //queue.Display();
 
-            queue.Dequeue();
-            queue.Display();
+            //queue.Dequeue();
+            //queue.Display();
+
+            LinkedListOperation operation = new LinkedListOperation();
+            operation.ReadFile2("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
         }
     }
 }
