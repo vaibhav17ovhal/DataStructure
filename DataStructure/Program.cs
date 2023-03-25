@@ -38,27 +38,6 @@ namespace DataStructure
             int searchDelete = linkedList.Search(40);
             linkedList.DeleteNodeAtParticularPosition(searchDelete);
             linkedList.Display();
-
-            /*
-            LinkedListStack stack = new LinkedListStack();
-            stack.Push(70);
-            stack.Push(30);
-            stack.Push(56);
-            stack.Display();
-            stack.Peak();
-            stack.Pop();
-            stack.Display();
-            */
-
-            //LinkedListQueue queue = new LinkedListQueue();
-            //queue.Enqueue(56);
-            //queue.Enqueue(30);
-            //queue.Enqueue(70);
-            //queue.Display();
-            //queue.Dequeue();
-            //queue.Display();
-
-
         }
     }
 }
