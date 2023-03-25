@@ -8,11 +8,11 @@ namespace DataStructure
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Data Structure");
-            LinkedList linkedList = new LinkedList();
-            linkedList.Add(56);
-            linkedList.Add(30);
-            linkedList.Add(70);
-            linkedList.Display();
+            //xLinkedList linkedList = new LinkedList();
+            //linkedList.Add(56);
+            //LinkedList.Add(30);
+            //linkedList.Add(70);
+            //linkedList.Display();
 
             //linkedList.AddInReverseOrder(70);
             //linkedList.AddInReverseOrder(30);
@@ -31,13 +31,19 @@ namespace DataStructure
             //linkedList.Search(30);
             //linkedList.Display();
 
-            int position = linkedList.Search(30);
-            linkedList.InsertAtParticularPosition(position + 1 , 40);
-            linkedList.Display();
-            Console.WriteLine();
-            int searchDelete = linkedList.Search(40);
-            linkedList.DeleteNodeAtParticularPosition(searchDelete);
-            linkedList.Display();
+            //int position = linkedList.Search(30);
+            //linkedList.InsertAtParticularPosition(position + 1 , 40);
+            //linkedList.Display();
+            //Console.WriteLine();
+            //int searchDelete = linkedList.Search(40);
+            //linkedList.DeleteNodeAtParticularPosition(searchDelete);
+            //linkedList.Display();
+
+            LinkedListStack stack = new LinkedListStack();
+            stack.Push(70);
+            stack.Push(30);
+            stack.Push(56);
+            stack.Display();
         }
     }
 }
