@@ -45,6 +45,7 @@ namespace DataStructure
         {
             if (this.head == null)
             {
+                Console.WriteLine();
                 Console.WriteLine("Queue is empty, Deletion is not possible");
                 return;
             }
@@ -52,6 +53,7 @@ namespace DataStructure
             {
                 while (this.head != null)
                 {
+                    Console.WriteLine();
                     Console.WriteLine("Value Dequeued is {0}", this.head.data);
                     this.head = this.head.next;
                 }
