@@ -74,8 +74,11 @@ namespace DataStructure
             //Anagram anagram = new Anagram();
             //anagram.CheckAnagram();
 
-            CustomizeString customizeString = new CustomizeString();
-            customizeString.Customize();
+            //CustomizeString customizeString = new CustomizeString();
+            //customizeString.Customize();
+
+            OrderedList orderedList = new OrderedList();
+            orderedList.ReadFile4("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
         }
     }
 }
