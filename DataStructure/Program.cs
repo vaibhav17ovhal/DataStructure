@@ -77,8 +77,11 @@ namespace DataStructure
             //CustomizeString customizeString = new CustomizeString();
             //customizeString.Customize();
 
-            OrderedList orderedList = new OrderedList();
-            orderedList.ReadFile4("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
+            //OrderedList orderedList = new OrderedList();
+            //orderedList.ReadFile4("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
+
+            BalancedParenthysis bl = new BalancedParenthysis();
+            bl.ReadFile5("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\BalancedFile.txt");
         }
     }
 }
