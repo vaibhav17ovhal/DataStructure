@@ -71,8 +71,11 @@ namespace DataStructure
             //BubbleSort bubbleSort = new BubbleSort();
             //bubbleSort.ReadFile3("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\FileInteger.txt");
 
-            Anagram anagram = new Anagram();
-            anagram.CheckAnagram();
+            //Anagram anagram = new Anagram();
+            //anagram.CheckAnagram();
+
+            CustomizeString customizeString = new CustomizeString();
+            customizeString.Customize();
         }
     }
 }
