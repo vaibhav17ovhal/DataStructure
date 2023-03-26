@@ -68,8 +68,11 @@ namespace DataStructure
             //InsertionSort sort1 = new InsertionSort();
             //sort1.ReadFile1("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
 
-            BubbleSort bubbleSort = new BubbleSort();
-            bubbleSort.ReadFile3("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\FileInteger.txt");
+            //BubbleSort bubbleSort = new BubbleSort();
+            //bubbleSort.ReadFile3("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\FileInteger.txt");
+
+            Anagram anagram = new Anagram();
+            anagram.CheckAnagram();
         }
     }
 }
