@@ -1,4 +1,5 @@
 ﻿using DataStructure;
+using DelegatesAndEvents;
 using System;
 
 namespace DataStructure
@@ -8,9 +9,9 @@ namespace DataStructure
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Data Structure");
-            //xLinkedList linkedList = new LinkedList();
+            //LinkedList linkedList = new LinkedList();
             //linkedList.Add(56);
-            //LinkedList.Add(30);
+            //linkedList.Add(30);
             //linkedList.Add(70);
             //linkedList.Display();
 
@@ -58,8 +59,11 @@ namespace DataStructure
             //queue.Dequeue();
             //queue.Display();
 
-            LinkedListOperation operation = new LinkedListOperation();
-            operation.ReadFile2("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
+            //LinkedListOperation operation = new LinkedListOperation();
+            //operation.ReadFile2("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
+
+            BinarySearch search = new BinarySearch();
+            search.ReadFile("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
         }
     }
 }

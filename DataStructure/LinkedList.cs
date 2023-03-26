@@ -142,7 +142,7 @@ namespace DataStructure
             {
                 return;
             }
-            Node next = temp.next;
+            Node next = temp.next.next;
             temp.next = next;
             Size();
         }
