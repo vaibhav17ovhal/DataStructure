@@ -62,8 +62,11 @@ namespace DataStructure
             //LinkedListOperation operation = new LinkedListOperation();
             //operation.ReadFile2("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
 
-            BinarySearch search = new BinarySearch();
-            search.ReadFile("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
+            //BinarySearch search = new BinarySearch();
+            //search.ReadFile("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
+
+            InsertionSort sort1 = new InsertionSort();
+            sort1.ReadFile1("C:\\Users\\Dell\\Desktop\\BL Exercise\\DataStructure\\DataStructure\\ABC.txt");
         }
     }
 }
